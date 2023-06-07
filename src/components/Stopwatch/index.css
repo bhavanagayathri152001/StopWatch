@@ -1,0 +1,107 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  width: 50%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    width: 80%;
+    padding-left: 100px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+.stopwatch-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .stopwatch-heading {
+    font-size: 32px;
+  }
+}
+.stopwatch-container {
+  background-color: #ffffff;
+  height: 35vh;
+  width: 320px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  line-height: 10px;
+}
+@media screen and (min-width: 768px) {
+  .stopwatch-container {
+    height: 30vh;
+    width: 270px;
+  }
+}
+.clock-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.stopwatch-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.timer-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+}
+.stopwatch-count {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .stopwatch-count {
+    font-size: 40px;
+  }
+}
+
+.green-btn {
+  background-color: #1db05f;
+}
+
+.red-btn {
+  background-color: #ef0d36;
+}
+
+.yellow-btn {
+  background-color: #eaa800;
+}
+
+.button {
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 5px;
+}
